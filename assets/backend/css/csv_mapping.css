@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #80ecca;
+}
+
+.mappingarea{
+    width: 540px;
+    margin:0 auto;
+}
+.csv_handle{
+    float: left;
+    height: 29px;
+    width: 250px;
+    font-family: arial;
+    padding: 8px;
+    background: #ddd;
+    margin-top: 1px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+.csv_header_sec {
+    padding: 8px;
+    width: 265px;
+    border: 1px solid #ddd;
+    height: 46px;
+    margin: 0 0 4px 0;
+}
+.subcsv {
+    margin: 10px 5px 0 0;
+    border: none;
+    padding: 6px;
+    width: 262px;
+    height: 38px;
+    display: block;
+    background: #339476;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    float: left;
+}
+.mappingarea h2 {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 31px;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    font-weight: bold;
+}
+.save_template .fieldset{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 0 0 20px 0;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.save_template {
+    margin: 90px 0 0 0;
+}
+input.saveTem {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #3d9e7f;
+    background: #41ab89;
+    cursor: pointer;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+}
+.clear{
+    clear:both;
+}
+.left-side {
+    float: left;
+    width: 238px;
+}
+.left-mid-side {
+    float: left;
+    padding: 41px 10px 0 10px;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
